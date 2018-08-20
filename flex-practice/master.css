@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: red;
+  width: 100%;
+  display: flex;
+
+}
+
+.header h1 {
+  flex-grow: 10;
+}
+
+.header ul {
+  flex-grow: 2;
+}
+
+.header li {
+  display: inline;
+}
+
+.content {
+  background-color: green;
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: blue;
+}
